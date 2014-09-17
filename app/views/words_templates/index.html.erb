@@ -1,0 +1,9 @@
+{{word.greeting}}
+
+{{words.all}}
+
+<form ng-submit="word.addWord(newWord)"></form>
+	<input type="text" placeholder="Word" ng-model="newWord.name">
+	<input type="text" placeholder="Description" ng-model="newWord.desc">
+	<button>Add Word</button>
+</form>
